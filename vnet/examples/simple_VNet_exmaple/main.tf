@@ -13,7 +13,7 @@ module "vnet" {
   gateway_subnet_address_prefix = ["10.1.1.0/27"]
 
   # Adding Standard DDoS Plan, and custom DNS servers (Optional)
-  create_ddos_plan = true
+  create_ddos_plan = false
 
   # Multiple Subnets, Service delegation, Service Endpoints, Network security groups
   # These are default subnets with required configuration, check README.md for more details
